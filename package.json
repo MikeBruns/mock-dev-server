@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "mock:server": "json-server --watch db.json --port 8675"
+    "prestart-mock:server": "",
+    "start-mock:server": "json-server --watch db.json --routes routes.json --port 8675"
   },
   "repository": {
     "type": "git",
