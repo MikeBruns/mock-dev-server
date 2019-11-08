@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prestart-mock:server": "node generateMockData.js",
-    "start-mock:server": "json-server --watch db.json --routes routes.json --port 8675"
+    "prestart": "node generateMockData.js",
+    "start": "json-server --watch api/db.json --routes routes.json --port 8675"
   },
   "repository": {
     "type": "git",
