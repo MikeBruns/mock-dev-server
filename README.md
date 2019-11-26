@@ -2,7 +2,7 @@
 Don't want to make up your own fun data? Don't have time to create good test names and phony phone numbers?  
 > Spin one of these bad boys up. Update the data types. _Bing. Bang. Boom._
 
-Create a rest api that produces sample data using (faker)[https://www.npmjs.com/package/faker]
+Create a rest api that produces sample data using [faker](https://www.npmjs.com/package/faker)
 
 ## How to run
 
